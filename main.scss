@@ -2,13 +2,16 @@ $url: "https://raw.githubusercontent.com/ParkYoungWoong/overwatch-hero-selector-
 
 body {
   height: 100vh;
+  // 문자보간
   background-image: url("#{$url}/bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
 .container {
   padding: 50px 0;
+
   .heroes {
     display: flex;
     flex-wrap: wrap;
@@ -16,6 +19,7 @@ body {
     max-width: 660px;
     margin: 0 auto;
     padding: 40px 20px;
+
     .hero {
       width: 80px;
       height: 84px;
@@ -27,13 +31,15 @@ body {
       background-color: #555;
       transform: skewX(-14deg);
       transition:
-              transform .1s,
-              background-color .6s;
+        transform .1s,
+        background-color .6s;
+
       &:hover {
         background-color: #ff9c00;
         transform: skewX(-14deg) scale(1.3);
         z-index: 1;
       }
+
       .image {
         width: 140%;
         height: 100%;
@@ -42,7 +48,10 @@ body {
         background-repeat: no-repeat;
         background-size: 90px;
       }
-      @for $i from 1 through 32 {
+
+      // 반복문
+      @for $i from 1 through 32 { 
+
         // .hero
         &:nth-child(#{$i}) .image {
           background-image: url("#{$url}/hero#{$i}.png");
@@ -50,10 +59,12 @@ body {
       }
     }
   }
+
   .logo {
     max-width: 300px;
     margin: 0 auto;
     padding: 0 20px;
+
     img {
       width: 100%;
     }

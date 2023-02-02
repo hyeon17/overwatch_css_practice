@@ -1,5 +1,5 @@
 {
-  "name": "overwatch-hero-selector-vanilla-origin",
+  "name": "overwatch_css_practice",
   "version": "1.0.0",
   "description": "오버워치 영웅 선택 화면 예제!",
   "main": "index.js",
@@ -9,17 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ParkYoungWoong/overwatch-hero-selector-vanilla.git"
+    "url": "git+https://github.com/hyeon17/overwatch_css_practice.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ParkYoungWoong/overwatch-hero-selector-vanilla/issues"
+    "url": "https://github.com/hyeon17/overwatch_css_practice/issues"
   },
-  "homepage": "https://github.com/ParkYoungWoong/overwatch-hero-selector-vanilla#readme",
+  "homepage": "https://github.com/hyeon17/overwatch_css_practice#readme",
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
-    "sass": "^1.32.8"
+    "sass": "^1.58.0"
   }
 }
